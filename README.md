@@ -8,7 +8,7 @@ The NMPC controller was developed and simulated in MATLAB simulink. To simulate 
 The final controller, for implementation in ROS, can be found in the Simulink models 'nmpcRect.slx' and 'nmpcSine.slx'. The two ROS nodes for the rectangular and sinusodial reference paths, respectively, are generated from these models using the ROS toolbox and Simulink Coder.
 
 ## ROS Implementation
-The two generated C++ ROS nodes can be found in the ROS2 workspace under the [Ros2_ws](Ros2_ws/) folder. To run the, for example, the '/nmpcRect' node ...
+The two generated C++ ROS nodes can be found in the ROS2 workspace under the [Ros2_ws](Ros2_ws/) folder. To run, for example, the '/nmpcRect' node ...
 1.  Copy the [src](Ros2_ws/src/) folder to your own ROS2 workspace.
 2.  Run `cd <path_to_ws>` to change the current directory to your workspace.
 3.  Run `colcon build` to build the workspace.
