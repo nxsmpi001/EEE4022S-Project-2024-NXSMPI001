@@ -3,8 +3,9 @@ This GitHub repo contains the simulink files and generated C++ ROS nodes for my 
 
 ## Simulink Implementation
 The NMPC controller was developed and simulated in MATLAB simulink. To simulate the closed loop system, go to the [Simulink](Simulink/) folder and ...
-1.  Open and run the 'ControlParams.mlx' script in MATLAB
-2.  Open and run the 'nmpcSim.slx' model in Simulink
+1.  Open and run the 'ControlParams.mlx' script in MATLAB.
+2.  Open and run the 'nmpcSim.slx' model in Simulink.
+
 The final controller, for implementation in ROS, can be found in the Simulink models 'nmpcRect.slx' and 'nmpcSine.slx'. The two ROS nodes for the rectangular and sinusodial reference paths, respectively, are generated from these models using the ROS toolbox and Simulink Coder.
 
 ## ROS Implementation
