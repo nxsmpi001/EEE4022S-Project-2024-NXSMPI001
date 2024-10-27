@@ -1,0 +1,56 @@
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/./
+
+  has 185 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    c25fd783e08772d88516afdee11c3137/hull_status__type_support_c.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/./
+
+  has 190 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    91c2d3480673558ab7bbb375cdd105e8/hull_status__type_support.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/./
+
+  has 187 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    633a0ecbb8dcad98a3b8ff2f0c2987ab/hull_status__type_support.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/./
+
+  has 192 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    587312f704ac1ad216a5a5a7c6f8ffce/hull_status__type_support.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+

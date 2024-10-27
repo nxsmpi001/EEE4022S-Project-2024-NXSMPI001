@@ -1,0 +1,99 @@
+-- The C compiler identification is MSVC 19.39.33523.0
+-- The CXX compiler identification is MSVC 19.39.33523.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/ament_cmake/cmake)
+-- Found Python3: C:/Users/mpilo/AppData/Local/Programs/Python/Python311/python.exe (found version "3.11.4") found components: Interpreter 
+-- Found ament_cmake_ros: 0.10.0 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/ament_cmake_ros/cmake)
+-- Found catarob_interfaces: 0.0.0 (C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.4 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.2.3 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/geometry_msgs/cmake)
+-- Found rclcpp: 16.0.5 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rmw_fastrtps_cpp/cmake)
+-- Found FastRTPS: C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/nmpcrect
+[1/11] Building CXX object CMakeFiles\nmpcRect.dir\src\rtGetNaN.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[2/11] Building CXX object CMakeFiles\nmpcRect.dir\src\rtGetInf.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[3/11] Building CXX object CMakeFiles\nmpcRect.dir\src\rt_nonfinite.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[4/11] Building CXX object CMakeFiles\nmpcRect.dir\src\slros2_generic_param.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[5/11] Building CXX object CMakeFiles\nmpcRect.dir\src\nmpcRect_data.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[6/11] Building CXX object CMakeFiles\nmpcRect.dir\src\main.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[7/11] Building CXX object CMakeFiles\nmpcRect.dir\src\slros2_initialize.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[8/11] Building CXX object CMakeFiles\nmpcRect.dir\src\slros_busmsg_conversion.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\include\nmpcrect\slros_msgconvert_utils.h(177): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\include\nmpcrect\slros_msgconvert_utils.h(177): note: the template instantiation context (the oldest one first) is
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\slros_busmsg_conversion.cpp(244): note: see reference to function template instantiation 'void convertToBusVariablePrimitiveArray<uint8_T[128],SL_Bus_ROSVariableLengthArrayInfo,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(BusType (&),BusInfoType &,const MsgType &,const slros::ROSPropertyWarnStatus &)' being compiled
+        with
+        [
+            BusType=uint8_T [128],
+            BusInfoType=SL_Bus_ROSVariableLengthArrayInfo,
+            MsgType=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+        ]
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\include\nmpcrect\slros_msgconvert_utils.h(695): note: see reference to function template instantiation 'int slros::setReceivedAndCurrentLengths<uint8_T[128],BusInfoType,MsgType>(const BusType (&),BusInfoType &,const MsgType &,const slros::ROSPropertyWarnStatus &)' being compiled
+        with
+        [
+            BusInfoType=SL_Bus_ROSVariableLengthArrayInfo,
+            MsgType=std::basic_string<char,std::char_traits<char>,std::allocator<char>>,
+            BusType=uint8_T [128]
+        ]
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\include\nmpcrect\slros_msgconvert_utils.h(177): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+[9/11] Building CXX object CMakeFiles\nmpcRect.dir\src\ros2nodeinterface.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+[10/11] Building CXX object CMakeFiles\nmpcRect.dir\src\nmpcRect.cpp.obj
+cl : Command line warning D9002 : ignoring unknown option '-fpermissive'
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14322): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14353): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14384): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14415): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14446): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14477): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\src\nmpcrect\src\nmpcRect.cpp(14508): warning C4244: '=': conversion from 'real_T' to 'uint64_t', possible loss of data
+[11/11] Linking CXX executable nmpcRect.exe
+-- Install configuration: "Release"
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/nmpcrect/nmpcRect.exe
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/package_run_dependencies/nmpcrect
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/parent_prefix_path/nmpcrect
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/environment/ament_prefix_path.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/environment/ament_prefix_path.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/environment/path.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/environment/path.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/local_setup.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/local_setup.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/package.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/packages/nmpcrect
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/cmake/nmpcrectConfig.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/cmake/nmpcrectConfig-version.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/nmpcrect/package.xml

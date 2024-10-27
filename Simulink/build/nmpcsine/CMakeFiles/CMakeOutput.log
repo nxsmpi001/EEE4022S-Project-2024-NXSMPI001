@@ -1,0 +1,67 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.39.33523.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/nmpcsine/CMakeFiles/3.25.0/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.39.33523.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/nmpcsine/CMakeFiles/3.25.0/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/nmpcsine/CMakeFiles/CMakeScratch/TryCompile-r5la8x
+
+Run Build Command(s):C:/PROGRA~1/MATLAB/R2024b/toolbox/shared/coder/ninja/win64/ninja.exe cmTC_028c1 && [1/2] Building C object CMakeFiles\cmTC_028c1.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_028c1.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/nmpcsine/CMakeFiles/CMakeScratch/TryCompile-wcmw2z
+
+Run Build Command(s):C:/PROGRA~1/MATLAB/R2024b/toolbox/shared/coder/ninja/win64/ninja.exe cmTC_a8330 && [1/4] Scanning "C:\Program Files\MATLAB\R2024b\bin\win64\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp" for CXX dependencies
+[2/4] Generating CXX dyndep file CMakeFiles\cmTC_a8330.dir\CXX.dd
+[3/4] Building CXX object CMakeFiles\cmTC_a8330.dir\CMakeCXXCompilerABI.cpp.obj
+[4/4] Linking CXX executable cmTC_a8330.exe
+
+
+

@@ -1,0 +1,1 @@
+['-DALIAS_ROS2_TF2=1', '-G', 'Ninja']

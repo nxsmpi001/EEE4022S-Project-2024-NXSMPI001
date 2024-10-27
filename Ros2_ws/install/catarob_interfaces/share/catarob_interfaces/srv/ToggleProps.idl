@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from catarob_interfaces/srv/ToggleProps.srv
+// generated code does not contain a copyright notice
+
+
+module catarob_interfaces {
+  module srv {
+    struct ToggleProps_Request {
+      boolean flag;
+    };
+    struct ToggleProps_Response {
+      boolean state;
+    };
+  };
+};

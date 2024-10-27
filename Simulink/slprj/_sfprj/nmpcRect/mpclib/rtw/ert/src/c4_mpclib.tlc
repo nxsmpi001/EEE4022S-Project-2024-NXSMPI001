@@ -1,0 +1,32 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   2 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "ADdata"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\stateTransitionFcnJacobian.m:163-169"\
+    }\
+    ChartData {\
+      Name         "ADdata_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\mpilo\Documents\Work\Research Project\Repo\EEE4022S-Project-2024-NXSMPI001\Simulink\stateTransitionFcnJacobian.m:163-169"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

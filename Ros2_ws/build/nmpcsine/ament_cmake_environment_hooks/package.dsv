@@ -1,0 +1,4 @@
+source;share/nmpcsine/local_setup.bash
+source;share/nmpcsine/local_setup.dsv
+source;share/nmpcsine/local_setup.sh
+source;share/nmpcsine/local_setup.zsh

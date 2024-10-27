@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from catarob_interfaces/msg/StateEstimate.msg
+// generated code does not contain a copyright notice
+
+
+module catarob_interfaces {
+  module msg {
+    typedef double double__36[36];
+    struct StateEstimate {
+      double x;
+
+      double y;
+
+      double psi;
+
+      double u;
+
+      double v;
+
+      double r;
+
+      double__36 covariance;
+    };
+  };
+};

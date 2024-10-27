@@ -1,0 +1,797 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (catarob_interfaces) JobQueued: {'identifier': 'catarob_interfaces', 'dependencies': OrderedDict()}
+[0.000640] (nmpcrect) JobQueued: {'identifier': 'nmpcrect', 'dependencies': OrderedDict([('catarob_interfaces', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces')])}
+[0.000666] (nmpcsine) JobQueued: {'identifier': 'nmpcsine', 'dependencies': OrderedDict([('catarob_interfaces', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces')])}
+[0.000688] (catarob_interfaces) JobStarted: {'identifier': 'catarob_interfaces'}
+[0.008830] (catarob_interfaces) JobProgress: {'identifier': 'catarob_interfaces', 'progress': 'cmake'}
+[0.009433] (catarob_interfaces) JobProgress: {'identifier': 'catarob_interfaces', 'progress': 'build'}
+[0.010366] (catarob_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.023084] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/cmake -S/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces -B/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.035134] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces//CMakeFiles/progress.marks\n'}
+[0.043140] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.044749] (catarob_interfaces) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.044870] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__cpp.dir/build.make CMakeFiles/catarob_interfaces__cpp.dir/depend\n'}
+[0.044965] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/depend\n'}
+[0.045172] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_catarob_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_catarob_interfaces.dir/depend\n'}
+[0.046224] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.046316] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__cpp.dir/DependInfo.cmake --color=\n'}
+[0.046559] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.046683] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.046754] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=\n'}
+[0.046823] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/ament_cmake_python_copy_catarob_interfaces.dir/DependInfo.cmake --color=\n'}
+[0.055969] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.056427] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.056619] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.056722] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__cpp.dir/build.make CMakeFiles/catarob_interfaces__cpp.dir/build\n'}
+[0.057596] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_catarob_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_catarob_interfaces.dir/build\n'}
+[0.057765] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.057853] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/cmake -E copy_directory /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/rosidl_generator_py/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/ament_cmake_python/catarob_interfaces/catarob_interfaces\n'}
+[0.058107] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.058190] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/build\n'}
+[0.058259] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.058319] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__cpp.dir/build'.\n"}
+[0.058377] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.060025] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.060120] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_generator_c.dir/build'.\n"}
+[0.060197] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.066370] (catarob_interfaces) StdoutLine: {'line': b'[  2%] Built target catarob_interfaces__cpp\n'}
+[0.067468] (catarob_interfaces) StdoutLine: {'line': b'[ 12%] Built target catarob_interfaces__rosidl_generator_c\n'}
+[0.067586] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/depend\n'}
+[0.067851] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[0.068085] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.068643] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[0.069312] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.069558] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=\n'}
+[0.069650] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.069714] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=\n'}
+[0.070360] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.070442] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=\n'}
+[0.076165] (catarob_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_catarob_interfaces\n'}
+[0.077592] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.077878] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.079813] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.079890] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.079966] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.080114] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=\n'}
+[0.082182] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.082432] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.082545] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/build\n'}
+[0.082713] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.082908] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[0.085525] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.085622] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_cpp.dir/build'.\n"}
+[0.085724] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.085802] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[0.086460] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.086523] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[0.086568] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.089283] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.089468] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[0.089600] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.090550] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.094831] (catarob_interfaces) StdoutLine: {'line': b'[ 23%] Built target catarob_interfaces__rosidl_typesupport_cpp\n'}
+[0.095027] (catarob_interfaces) StdoutLine: {'line': b'[ 34%] Built target catarob_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.095119] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.095227] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.095417] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.097889] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/depend\n'}
+[0.097993] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.098092] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=\n'}
+[0.098165] (catarob_interfaces) StdoutLine: {'line': b'[ 44%] Built target catarob_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.098229] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.098288] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=\n'}
+[0.098517] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_catarob_interfaces_egg.dir/build.make CMakeFiles/ament_cmake_python_build_catarob_interfaces_egg.dir/depend\n'}
+[0.098719] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.098855] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.098991] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.099553] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.099689] (-) TimerEvent: {}
+[0.099779] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/ament_cmake_python_build_catarob_interfaces_egg.dir/DependInfo.cmake --color=\n'}
+[0.107281] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.107573] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.107662] (catarob_interfaces) StdoutLine: {'line': b'[ 55%] Built target catarob_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.107840] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.107921] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.108097] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.108172] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.108220] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/build\n'}
+[0.108961] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_catarob_interfaces_egg.dir/build.make CMakeFiles/ament_cmake_python_build_catarob_interfaces_egg.dir/build\n'}
+[0.109675] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.109756] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_c.dir/build'.\n"}
+[0.109820] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.109970] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.110043] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.110160] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.110216] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.110259] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/ament_cmake_python/catarob_interfaces && /usr/bin/python3 setup.py egg_info\n'}
+[0.118313] (catarob_interfaces) StdoutLine: {'line': b'[ 65%] Built target catarob_interfaces__rosidl_typesupport_c\n'}
+[0.119061] (catarob_interfaces) StdoutLine: {'line': b'[ 76%] Built target catarob_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.119914] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces.dir/build.make CMakeFiles/catarob_interfaces.dir/depend\n'}
+[0.121196] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.121313] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces.dir/DependInfo.cmake --color=\n'}
+[0.131859] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.132153] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces.dir/build.make CMakeFiles/catarob_interfaces.dir/build\n'}
+[0.133467] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.133673] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces.dir/build'.\n"}
+[0.133802] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.142911] (catarob_interfaces) StdoutLine: {'line': b'[ 76%] Built target catarob_interfaces\n'}
+[0.144121] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/build.make catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/depend\n'}
+[0.145507] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.145680] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/catarob_interfaces__py /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/catarob_interfaces__py /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/DependInfo.cmake --color=\n'}
+[0.155037] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.155328] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/build.make catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/build\n'}
+[0.156834] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.156926] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'catarob_interfaces__py/CMakeFiles/catarob_interfaces__py.dir/build'.\n"}
+[0.156999] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.165888] (catarob_interfaces) StdoutLine: {'line': b'[ 78%] Built target catarob_interfaces__py\n'}
+[0.167720] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/depend\n'}
+[0.169064] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.169155] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/DependInfo.cmake --color=\n'}
+[0.178396] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.182565] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.182781] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/build\n'}
+[0.187145] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.187277] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_generator_py.dir/build'.\n"}
+[0.187343] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.195145] (catarob_interfaces) StdoutLine: {'line': b'[ 87%] Built target catarob_interfaces__rosidl_generator_py\n'}
+[0.196329] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend\n'}
+[0.196539] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend\n'}
+[0.197823] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.197963] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake --color=\n'}
+[0.198048] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.198112] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=\n'}
+[0.198210] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/depend\n'}
+[0.201583] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.201688] (-) TimerEvent: {}
+[0.201782] (catarob_interfaces) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/src/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=\n'}
+[0.207147] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.207317] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.208844] (catarob_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target catarob_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.209129] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.209284] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build\n'}
+[0.209422] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.209557] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build\n'}
+[0.211604] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.211774] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/build\n'}
+[0.212052] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.212131] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build'.\n"}
+[0.212232] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.212293] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build'.\n"}
+[0.212352] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.212410] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.214641] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.214800] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/catarob_interfaces__rosidl_typesupport_c__pyext.dir/build'.\n"}
+[0.214874] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.222693] (catarob_interfaces) StdoutLine: {'line': b'[ 91%] Built target catarob_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.222866] (catarob_interfaces) StdoutLine: {'line': b'[ 95%] Built target catarob_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.222974] (catarob_interfaces) StdoutLine: {'line': b'[100%] Built target catarob_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.301852] (-) TimerEvent: {}
+[0.359923] (catarob_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.360647] (catarob_interfaces) StdoutLine: {'line': b'writing catarob_interfaces.egg-info/PKG-INFO\n'}
+[0.360954] (catarob_interfaces) StdoutLine: {'line': b'writing dependency_links to catarob_interfaces.egg-info/dependency_links.txt\n'}
+[0.361179] (catarob_interfaces) StdoutLine: {'line': b'writing top-level names to catarob_interfaces.egg-info/top_level.txt\n'}
+[0.363637] (catarob_interfaces) StdoutLine: {'line': b"reading manifest file 'catarob_interfaces.egg-info/SOURCES.txt'\n"}
+[0.364301] (catarob_interfaces) StdoutLine: {'line': b"writing manifest file 'catarob_interfaces.egg-info/SOURCES.txt'\n"}
+[0.382265] (catarob_interfaces) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.390835] (catarob_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_catarob_interfaces_egg\n'}
+[0.391893] (catarob_interfaces) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'\n"}
+[0.392117] (catarob_interfaces) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces/CMakeFiles 0\n'}
+[0.402131] (-) TimerEvent: {}
+[0.402862] (catarob_interfaces) CommandEnded: {'returncode': 0}
+[0.498623] (catarob_interfaces) JobProgress: {'identifier': 'catarob_interfaces', 'progress': 'install'}
+[0.502387] (-) TimerEvent: {}
+[0.508005] (catarob_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.516593] (catarob_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.516934] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/ament_index/resource_index/rosidl_interfaces/catarob_interfaces\n'}
+[0.517007] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.517061] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.517112] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.517306] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__functions.h\n'}
+[0.517414] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__functions.c\n'}
+[0.517590] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__struct.h\n'}
+[0.517760] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.h\n'}
+[0.517819] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/toggle_props.h\n'}
+[0.517925] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.517981] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.518029] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__functions.c\n'}
+[0.518074] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__functions.h\n'}
+[0.518117] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.h\n'}
+[0.518181] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__functions.c\n'}
+[0.518301] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__struct.h\n'}
+[0.518471] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__functions.h\n'}
+[0.518643] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__struct.h\n'}
+[0.518772] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.h\n'}
+[0.518900] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/hull_status.h\n'}
+[0.519023] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.519132] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/state_estimate.h\n'}
+[0.519224] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/library_path.sh\n'}
+[0.519343] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/library_path.dsv\n'}
+[0.519400] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_c.so\n'}
+[0.519522] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.519694] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.519831] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.519887] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_fastrtps_c.h\n'}
+[0.519973] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.520031] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.520079] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_fastrtps_c.h\n'}
+[0.520125] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.520169] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.520245] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.520378] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.520437] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.520626] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.520715] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_introspection_c.h\n'}
+[0.520855] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.c\n'}
+[0.520924] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.521025] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.521124] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.521190] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_introspection_c.h\n'}
+[0.521294] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.c\n'}
+[0.521397] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.c\n'}
+[0.521586] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_introspection_c.h\n'}
+[0.521682] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.521834] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_c.so\n'}
+[0.521900] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.521951] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.521997] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.522046] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__traits.hpp\n'}
+[0.522092] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__struct.hpp\n'}
+[0.522135] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__builder.hpp\n'}
+[0.522178] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/toggle_props.hpp\n'}
+[0.522223] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.522304] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.522428] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__struct.hpp\n'}
+[0.522475] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__builder.hpp\n'}
+[0.522514] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__builder.hpp\n'}
+[0.522550] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__struct.hpp\n'}
+[0.522586] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__traits.hpp\n'}
+[0.522621] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__traits.hpp\n'}
+[0.522656] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/hull_status.hpp\n'}
+[0.522701] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/state_estimate.hpp\n'}
+[0.522736] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.522814] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.522896] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.522956] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.523021] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/dds_fastrtps\n'}
+[0.523079] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.523136] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.523193] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/dds_fastrtps\n'}
+[0.523254] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.523343] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.523405] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.523462] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.523519] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces\n'}
+[0.523576] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv\n'}
+[0.523632] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail\n'}
+[0.523688] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.523745] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.cpp\n'}
+[0.523851] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg\n'}
+[0.523930] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail\n'}
+[0.523988] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.cpp\n'}
+[0.524045] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.524102] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.cpp\n'}
+[0.524158] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.524222] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.524279] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.524358] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/pythonpath.sh\n'}
+[0.524418] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/pythonpath.dsv\n'}
+[0.524578] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.524645] (catarob_interfaces) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.524702] (catarob_interfaces) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.524759] (catarob_interfaces) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.524836] (catarob_interfaces) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.524903] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces\n'}
+[0.524966] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/libcatarob_interfaces__rosidl_generator_py.so\n'}
+[0.525024] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/_catarob_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.525081] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.525138] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/srv\n'}
+[0.525195] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/srv/_toggle_props.py\n'}
+[0.525252] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/srv/__init__.py\n'}
+[0.525308] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/srv/_toggle_props_s.c\n'}
+[0.525392] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.525466] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg\n'}
+[0.525535] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg/_state_estimate.py\n'}
+[0.525599] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg/_hull_status.py\n'}
+[0.525655] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg/_hull_status_s.c\n'}
+[0.525711] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg/_state_estimate_s.c\n'}
+[0.525767] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg/__init__.py\n'}
+[0.525861] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/_catarob_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.525944] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/__init__.py\n'}
+[0.526003] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.526061] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/_catarob_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.554536] (catarob_interfaces) StdoutLine: {'line': b"Listing '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces'...\n"}
+[0.554799] (catarob_interfaces) StdoutLine: {'line': b"Listing '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/msg'...\n"}
+[0.554904] (catarob_interfaces) StdoutLine: {'line': b"Listing '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/srv'...\n"}
+[0.559375] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.559603] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.559798] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages/catarob_interfaces/catarob_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.559957] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_py.so\n'}
+[0.560063] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/msg/HullStatus.idl\n'}
+[0.560150] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/msg/StateEstimate.idl\n'}
+[0.560342] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/srv/ToggleProps.idl\n'}
+[0.560505] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/msg/HullStatus.msg\n'}
+[0.560692] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/msg/StateEstimate.msg\n'}
+[0.560833] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/srv/ToggleProps.srv\n'}
+[0.560915] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/srv/ToggleProps_Request.msg\n'}
+[0.560959] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/srv/ToggleProps_Response.msg\n'}
+[0.560997] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/ament_index/resource_index/package_run_dependencies/catarob_interfaces\n'}
+[0.561035] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/ament_index/resource_index/parent_prefix_path/catarob_interfaces\n'}
+[0.561072] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/ament_prefix_path.sh\n'}
+[0.561119] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.561166] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/path.sh\n'}
+[0.561213] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/environment/path.dsv\n'}
+[0.561310] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/local_setup.bash\n'}
+[0.561385] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/local_setup.sh\n'}
+[0.561471] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/local_setup.zsh\n'}
+[0.561572] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/local_setup.dsv\n'}
+[0.561660] (catarob_interfaces) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.dsv\n'}
+[0.561786] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/ament_index/resource_index/packages/catarob_interfaces\n'}
+[0.561893] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.561964] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cExport-release.cmake\n'}
+[0.562008] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.562058] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.562107] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.562170] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.562217] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.562309] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cExport-release.cmake\n'}
+[0.562388] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.562562] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.562704] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.562790] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.562905] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.562959] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.563009] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.563057] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.563104] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_pyExport-release.cmake\n'}
+[0.563150] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.563195] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.563242] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.563360] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.563430] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.563570] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.563659] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.563717] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfacesConfig.cmake\n'}
+[0.563773] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/cmake/catarob_interfacesConfig-version.cmake\n'}
+[0.563859] (catarob_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.xml\n'}
+[0.566040] (catarob_interfaces) CommandEnded: {'returncode': 0}
+[0.602584] (-) TimerEvent: {}
+[0.681317] (catarob_interfaces) JobEnded: {'identifier': 'catarob_interfaces', 'rc': 0}
+[0.681994] (nmpcrect) JobStarted: {'identifier': 'nmpcrect'}
+[0.685217] (nmpcsine) JobStarted: {'identifier': 'nmpcsine'}
+[0.689522] (nmpcrect) JobProgress: {'identifier': 'nmpcrect', 'progress': 'cmake'}
+[0.690095] (nmpcrect) JobProgress: {'identifier': 'nmpcrect', 'progress': 'build'}
+[0.690764] (nmpcrect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpilovm/ros2_ws_simulink/build/nmpcrect', '--', '-j4', '-l4'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/nmpcrect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.692740] (nmpcsine) JobProgress: {'identifier': 'nmpcsine', 'progress': 'cmake'}
+[0.693873] (nmpcsine) JobProgress: {'identifier': 'nmpcsine', 'progress': 'build'}
+[0.693902] (nmpcsine) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpilovm/ros2_ws_simulink/build/nmpcsine', '--', '-j4', '-l4'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/nmpcsine', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.701486] (nmpcrect) StdoutLine: {'line': b'/usr/bin/cmake -S/home/mpilovm/ros2_ws_simulink/src/nmpcrect -B/home/mpilovm/ros2_ws_simulink/build/nmpcrect --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.702610] (-) TimerEvent: {}
+[0.703925] (nmpcsine) StdoutLine: {'line': b'/usr/bin/cmake -S/home/mpilovm/ros2_ws_simulink/src/nmpcsine -B/home/mpilovm/ros2_ws_simulink/build/nmpcsine --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.715928] (nmpcrect) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/nmpcrect/CMakeFiles /home/mpilovm/ros2_ws_simulink/build/nmpcrect//CMakeFiles/progress.marks\n'}
+[0.717183] (nmpcsine) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/nmpcsine/CMakeFiles /home/mpilovm/ros2_ws_simulink/build/nmpcsine//CMakeFiles/progress.marks\n'}
+[0.726218] (nmpcrect) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.726545] (nmpcsine) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.727560] (nmpcsine) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[0.727798] (nmpcsine) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/nmpcSine.dir/build.make CMakeFiles/nmpcSine.dir/depend\n'}
+[0.727909] (nmpcrect) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[0.728003] (nmpcrect) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/nmpcRect.dir/build.make CMakeFiles/nmpcRect.dir/depend\n'}
+[0.729086] (nmpcsine) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[0.729222] (nmpcsine) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/nmpcsine && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/nmpcsine /home/mpilovm/ros2_ws_simulink/src/nmpcsine /home/mpilovm/ros2_ws_simulink/build/nmpcsine /home/mpilovm/ros2_ws_simulink/build/nmpcsine /home/mpilovm/ros2_ws_simulink/build/nmpcsine/CMakeFiles/nmpcSine.dir/DependInfo.cmake --color=\n'}
+[0.729288] (nmpcrect) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[0.729354] (nmpcrect) StdoutLine: {'line': b'cd /home/mpilovm/ros2_ws_simulink/build/nmpcrect && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/mpilovm/ros2_ws_simulink/src/nmpcrect /home/mpilovm/ros2_ws_simulink/src/nmpcrect /home/mpilovm/ros2_ws_simulink/build/nmpcrect /home/mpilovm/ros2_ws_simulink/build/nmpcrect /home/mpilovm/ros2_ws_simulink/build/nmpcrect/CMakeFiles/nmpcRect.dir/DependInfo.cmake --color=\n'}
+[0.742558] (nmpcrect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nmpcRect\x1b[0m\n'}
+[0.742963] (nmpcsine) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nmpcSine\x1b[0m\n'}
+[0.757479] (nmpcsine) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[0.757787] (nmpcsine) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/nmpcSine.dir/build.make CMakeFiles/nmpcSine.dir/build\n'}
+[0.757963] (nmpcrect) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[0.758052] (nmpcrect) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/nmpcRect.dir/build.make CMakeFiles/nmpcRect.dir/build\n'}
+[0.766896] (nmpcsine) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[0.767304] (nmpcrect) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[0.778469] (nmpcsine) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nmpcSine.dir/src/slros2_generic_param.cpp.o\x1b[0m\n'}
+[0.778812] (nmpcrect) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nmpcRect.dir/src/nmpcRect.cpp.o\x1b[0m\n'}
+[0.780875] (nmpcsine) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nmpcSine.dir/src/nmpcSine.cpp.o\x1b[0m\n'}
+[0.781046] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcsine\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcSine -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcSine.dir/src/slros2_generic_param.cpp.o -MF CMakeFiles/nmpcSine.dir/src/slros2_generic_param.cpp.o.d -o CMakeFiles/nmpcSine.dir/src/slros2_generic_param.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/slros2_generic_param.cpp\n'}
+[0.783342] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcsine\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcSine -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcSine.dir/src/nmpcSine.cpp.o -MF CMakeFiles/nmpcSine.dir/src/nmpcSine.cpp.o.d -o CMakeFiles/nmpcSine.dir/src/nmpcSine.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/nmpcSine.cpp\n'}
+[0.785921] (nmpcrect) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nmpcRect.dir/src/slros2_generic_param.cpp.o\x1b[0m\n'}
+[0.786074] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcrect\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include/nmpcrect -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcRect -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcRect.dir/src/nmpcRect.cpp.o -MF CMakeFiles/nmpcRect.dir/src/nmpcRect.cpp.o.d -o CMakeFiles/nmpcRect.dir/src/nmpcRect.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcrect/src/nmpcRect.cpp\n'}
+[0.789097] (nmpcrect) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/nmpcRect.dir/src/nmpcRect_data.cpp.o\x1b[0m\n'}
+[0.790171] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcrect\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include/nmpcrect -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcRect -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcRect.dir/src/slros2_generic_param.cpp.o -MF CMakeFiles/nmpcRect.dir/src/slros2_generic_param.cpp.o.d -o CMakeFiles/nmpcRect.dir/src/slros2_generic_param.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcrect/src/slros2_generic_param.cpp\n'}
+[0.790380] (nmpcsine) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/nmpcSine.dir/src/nmpcSine_data.cpp.o\x1b[0m\n'}
+[0.791093] (nmpcsine) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/nmpcSine.dir/src/ros2nodeinterface.cpp.o\x1b[0m\n'}
+[0.791589] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcrect\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include/nmpcrect -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcRect -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcRect.dir/src/nmpcRect_data.cpp.o -MF CMakeFiles/nmpcRect.dir/src/nmpcRect_data.cpp.o.d -o CMakeFiles/nmpcRect.dir/src/nmpcRect_data.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcrect/src/nmpcRect_data.cpp\n'}
+[0.791801] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcsine\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcSine -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcSine.dir/src/ros2nodeinterface.cpp.o -MF CMakeFiles/nmpcSine.dir/src/ros2nodeinterface.cpp.o.d -o CMakeFiles/nmpcSine.dir/src/ros2nodeinterface.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/ros2nodeinterface.cpp\n'}
+[0.792677] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcsine\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcSine -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcSine.dir/src/nmpcSine_data.cpp.o -MF CMakeFiles/nmpcSine.dir/src/nmpcSine_data.cpp.o.d -o CMakeFiles/nmpcSine.dir/src/nmpcSine_data.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/nmpcSine_data.cpp\n'}
+[0.795716] (nmpcrect) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/nmpcRect.dir/src/ros2nodeinterface.cpp.o\x1b[0m\n'}
+[0.796323] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcrect\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include/nmpcrect -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcRect -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcRect.dir/src/ros2nodeinterface.cpp.o -MF CMakeFiles/nmpcRect.dir/src/ros2nodeinterface.cpp.o.d -o CMakeFiles/nmpcRect.dir/src/ros2nodeinterface.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcrect/src/ros2nodeinterface.cpp\n'}
+[0.802899] (-) TimerEvent: {}
+[0.906469] (-) TimerEvent: {}
+[1.006867] (-) TimerEvent: {}
+[1.107456] (-) TimerEvent: {}
+[1.208236] (-) TimerEvent: {}
+[1.310927] (-) TimerEvent: {}
+[1.411594] (-) TimerEvent: {}
+[1.511983] (-) TimerEvent: {}
+[1.615028] (-) TimerEvent: {}
+[1.717506] (-) TimerEvent: {}
+[1.819950] (-) TimerEvent: {}
+[1.920419] (-) TimerEvent: {}
+[2.020850] (-) TimerEvent: {}
+[2.121293] (-) TimerEvent: {}
+[2.221878] (-) TimerEvent: {}
+[2.322433] (-) TimerEvent: {}
+[2.422814] (-) TimerEvent: {}
+[2.523205] (-) TimerEvent: {}
+[2.623702] (-) TimerEvent: {}
+[2.724208] (-) TimerEvent: {}
+[2.824732] (-) TimerEvent: {}
+[2.926706] (-) TimerEvent: {}
+[3.030130] (-) TimerEvent: {}
+[3.132410] (-) TimerEvent: {}
+[3.233240] (-) TimerEvent: {}
+[3.336079] (-) TimerEvent: {}
+[3.436754] (-) TimerEvent: {}
+[3.537109] (-) TimerEvent: {}
+[3.639134] (-) TimerEvent: {}
+[3.739825] (-) TimerEvent: {}
+[3.840673] (-) TimerEvent: {}
+[3.941165] (-) TimerEvent: {}
+[4.041571] (-) TimerEvent: {}
+[4.142015] (-) TimerEvent: {}
+[4.242594] (-) TimerEvent: {}
+[4.345790] (-) TimerEvent: {}
+[4.447806] (-) TimerEvent: {}
+[4.548196] (-) TimerEvent: {}
+[4.648719] (-) TimerEvent: {}
+[4.749379] (-) TimerEvent: {}
+[4.850496] (-) TimerEvent: {}
+[4.951124] (-) TimerEvent: {}
+[5.053435] (-) TimerEvent: {}
+[5.153792] (-) TimerEvent: {}
+[5.256728] (-) TimerEvent: {}
+[5.357911] (-) TimerEvent: {}
+[5.458305] (-) TimerEvent: {}
+[5.561052] (-) TimerEvent: {}
+[5.661782] (-) TimerEvent: {}
+[5.762095] (-) TimerEvent: {}
+[5.864063] (-) TimerEvent: {}
+[5.964809] (-) TimerEvent: {}
+[6.065477] (-) TimerEvent: {}
+[6.168359] (-) TimerEvent: {}
+[6.271063] (-) TimerEvent: {}
+[6.371587] (-) TimerEvent: {}
+[6.471895] (-) TimerEvent: {}
+[6.576336] (-) TimerEvent: {}
+[6.676910] (-) TimerEvent: {}
+[6.777632] (-) TimerEvent: {}
+[6.878566] (-) TimerEvent: {}
+[6.978998] (-) TimerEvent: {}
+[7.079838] (-) TimerEvent: {}
+[7.180450] (-) TimerEvent: {}
+[7.281177] (-) TimerEvent: {}
+[7.381952] (-) TimerEvent: {}
+[7.422010] (nmpcsine) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/nmpcSine.dir/src/slros2_initialize.cpp.o\x1b[0m\n'}
+[7.422239] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcsine\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine -I/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcSine -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcSine.dir/src/slros2_initialize.cpp.o -MF CMakeFiles/nmpcSine.dir/src/slros2_initialize.cpp.o.d -o CMakeFiles/nmpcSine.dir/src/slros2_initialize.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/slros2_initialize.cpp\n'}
+[7.483677] (-) TimerEvent: {}
+[7.584373] (-) TimerEvent: {}
+[7.618902] (nmpcrect) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/nmpcRect.dir/src/slros2_initialize.cpp.o\x1b[0m\n'}
+[7.619131] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\\"nmpcrect\\" -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include/nmpcrect -I/home/mpilovm/ros2_ws_simulink/src/nmpcrect/include -isystem /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/include/catarob_interfaces -isystem /opt/ros/humble/include/geometry_msgs -isystem /opt/ros/humble/include/rclcpp -isystem /opt/ros/humble/include/sensor_msgs -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/fastcdr -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/humble/include/rmw -isystem /opt/ros/humble/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/ament_index_cpp -isystem /opt/ros/humble/include/libstatistics_collector -isystem /opt/ros/humble/include/rcl -isystem /opt/ros/humble/include/rcl_interfaces -isystem /opt/ros/humble/include/rcl_logging_interface -isystem /opt/ros/humble/include/rcl_yaml_param_parser -isystem /opt/ros/humble/include/libyaml_vendor -isystem /opt/ros/humble/include/tracetools -isystem /opt/ros/humble/include/rcpputils -isystem /opt/ros/humble/include/statistics_msgs -isystem /opt/ros/humble/include/rosgraph_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_c -O3 -DNDEBUG -Wall -Wextra -Wpedantic -DMODEL=nmpcRect -DNUMST=3 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=1 -DINTEGER_CODE=0 -DMT=0 -DROS2_PROJECT -DSTACK_SIZE=64 -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DRT -fpermissive -MD -MT CMakeFiles/nmpcRect.dir/src/slros2_initialize.cpp.o -MF CMakeFiles/nmpcRect.dir/src/slros2_initialize.cpp.o.d -o CMakeFiles/nmpcRect.dir/src/slros2_initialize.cpp.o -c /home/mpilovm/ros2_ws_simulink/src/nmpcrect/src/slros2_initialize.cpp\n'}
+[7.684767] (-) TimerEvent: {}
+[7.785577] (-) TimerEvent: {}
+[7.885884] (-) TimerEvent: {}
+[7.986748] (-) TimerEvent: {}
+[8.087588] (-) TimerEvent: {}
+[8.188256] (-) TimerEvent: {}
+[8.292641] (-) TimerEvent: {}
+[8.393216] (-) TimerEvent: {}
+[8.494113] (-) TimerEvent: {}
+[8.594830] (-) TimerEvent: {}
+[8.695599] (-) TimerEvent: {}
+[8.796308] (-) TimerEvent: {}
+[8.897134] (-) TimerEvent: {}
+[8.997882] (-) TimerEvent: {}
+[9.098640] (-) TimerEvent: {}
+[9.199441] (-) TimerEvent: {}
+[9.302229] (-) TimerEvent: {}
+[9.402873] (-) TimerEvent: {}
+[9.503578] (-) TimerEvent: {}
+[9.604272] (-) TimerEvent: {}
+[9.705080] (-) TimerEvent: {}
+[9.805804] (-) TimerEvent: {}
+[9.906607] (-) TimerEvent: {}
+[10.008716] (-) TimerEvent: {}
+[10.109408] (-) TimerEvent: {}
+[10.210281] (-) TimerEvent: {}
+[10.311064] (-) TimerEvent: {}
+[10.413787] (-) TimerEvent: {}
+[10.514514] (-) TimerEvent: {}
+[10.614945] (-) TimerEvent: {}
+[10.715387] (-) TimerEvent: {}
+[10.815770] (-) TimerEvent: {}
+[10.916214] (-) TimerEvent: {}
+[11.019087] (-) TimerEvent: {}
+[11.120598] (-) TimerEvent: {}
+[11.221603] (-) TimerEvent: {}
+[11.322454] (-) TimerEvent: {}
+[11.423131] (-) TimerEvent: {}
+[11.525897] (-) TimerEvent: {}
+[11.627175] (-) TimerEvent: {}
+[11.728459] (-) TimerEvent: {}
+[11.830828] (-) TimerEvent: {}
+[11.932172] (-) TimerEvent: {}
+[12.080790] (-) TimerEvent: {}
+[12.197736] (-) TimerEvent: {}
+[12.314518] (-) TimerEvent: {}
+[12.415199] (-) TimerEvent: {}
+[12.515624] (-) TimerEvent: {}
+[12.616655] (-) TimerEvent: {}
+[12.718295] (-) TimerEvent: {}
+[12.834425] (-) TimerEvent: {}
+[12.953216] (-) TimerEvent: {}
+[13.060398] (-) TimerEvent: {}
+[13.186456] (-) TimerEvent: {}
+[13.298471] (-) TimerEvent: {}
+[13.401765] (-) TimerEvent: {}
+[13.518547] (-) TimerEvent: {}
+[13.619231] (-) TimerEvent: {}
+[13.755363] (-) TimerEvent: {}
+[13.856123] (-) TimerEvent: {}
+[13.958240] (-) TimerEvent: {}
+[14.059359] (-) TimerEvent: {}
+[14.173780] (-) TimerEvent: {}
+[14.276042] (-) TimerEvent: {}
+[14.385069] (-) TimerEvent: {}
+[14.486762] (-) TimerEvent: {}
+[14.589627] (-) TimerEvent: {}
+[14.690031] (-) TimerEvent: {}
+[14.797580] (-) TimerEvent: {}
+[14.906286] (-) TimerEvent: {}
+[15.006879] (-) TimerEvent: {}
+[15.113301] (-) TimerEvent: {}
+[15.214639] (-) TimerEvent: {}
+[15.320695] (-) TimerEvent: {}
+[15.459559] (-) TimerEvent: {}
+[15.563841] (-) TimerEvent: {}
+[15.673861] (-) TimerEvent: {}
+[15.774681] (-) TimerEvent: {}
+[15.883827] (-) TimerEvent: {}
+[15.984686] (-) TimerEvent: {}
+[16.252322] (-) TimerEvent: {}
+[16.412267] (-) TimerEvent: {}
+[16.531236] (-) TimerEvent: {}
+[16.656272] (-) TimerEvent: {}
+[16.758598] (-) TimerEvent: {}
+[16.886788] (-) TimerEvent: {}
+[16.987552] (-) TimerEvent: {}
+[17.088017] (-) TimerEvent: {}
+[17.198909] (-) TimerEvent: {}
+[17.300378] (-) TimerEvent: {}
+[17.405237] (-) TimerEvent: {}
+[17.506784] (-) TimerEvent: {}
+[17.607333] (-) TimerEvent: {}
+[17.708103] (-) TimerEvent: {}
+[17.809416] (-) TimerEvent: {}
+[17.911409] (-) TimerEvent: {}
+[18.013481] (-) TimerEvent: {}
+[18.117769] (-) TimerEvent: {}
+[18.221666] (-) TimerEvent: {}
+[18.327223] (-) TimerEvent: {}
+[18.428777] (-) TimerEvent: {}
+[18.531134] (-) TimerEvent: {}
+[18.631500] (-) TimerEvent: {}
+[18.731918] (-) TimerEvent: {}
+[18.832306] (-) TimerEvent: {}
+[18.932795] (-) TimerEvent: {}
+[19.033145] (-) TimerEvent: {}
+[19.138724] (-) TimerEvent: {}
+[19.242183] (-) TimerEvent: {}
+[19.347756] (-) TimerEvent: {}
+[19.448092] (-) TimerEvent: {}
+[19.548411] (-) TimerEvent: {}
+[19.648772] (-) TimerEvent: {}
+[19.750673] (-) TimerEvent: {}
+[19.851510] (-) TimerEvent: {}
+[19.952863] (-) TimerEvent: {}
+[20.053166] (-) TimerEvent: {}
+[20.155367] (-) TimerEvent: {}
+[20.255994] (-) TimerEvent: {}
+[20.358631] (-) TimerEvent: {}
+[20.459884] (-) TimerEvent: {}
+[20.564962] (-) TimerEvent: {}
+[20.668274] (-) TimerEvent: {}
+[20.773929] (-) TimerEvent: {}
+[20.875338] (-) TimerEvent: {}
+[20.988229] (-) TimerEvent: {}
+[21.094862] (-) TimerEvent: {}
+[21.195342] (-) TimerEvent: {}
+[21.300066] (-) TimerEvent: {}
+[21.419532] (-) TimerEvent: {}
+[21.535238] (-) TimerEvent: {}
+[21.635767] (-) TimerEvent: {}
+[21.761277] (-) TimerEvent: {}
+[21.861785] (-) TimerEvent: {}
+[21.983324] (-) TimerEvent: {}
+[22.085328] (-) TimerEvent: {}
+[22.186588] (-) TimerEvent: {}
+[22.289541] (-) TimerEvent: {}
+[22.390645] (-) TimerEvent: {}
+[22.491121] (-) TimerEvent: {}
+[22.719283] (-) TimerEvent: {}
+[22.937244] (-) TimerEvent: {}
+[23.041577] (-) TimerEvent: {}
+[23.180576] (-) TimerEvent: {}
+[23.282656] (-) TimerEvent: {}
+[23.388887] (-) TimerEvent: {}
+[23.491991] (-) TimerEvent: {}
+[23.599399] (-) TimerEvent: {}
+[23.700695] (-) TimerEvent: {}
+[23.802984] (-) TimerEvent: {}
+[23.903728] (-) TimerEvent: {}
+[24.036786] (-) TimerEvent: {}
+[24.161632] (-) TimerEvent: {}
+[24.264878] (-) TimerEvent: {}
+[24.370241] (-) TimerEvent: {}
+[24.481547] (-) TimerEvent: {}
+[24.587460] (-) TimerEvent: {}
+[24.691426] (-) TimerEvent: {}
+[24.803311] (-) TimerEvent: {}
+[24.903647] (-) TimerEvent: {}
+[25.008213] (-) TimerEvent: {}
+[25.131295] (-) TimerEvent: {}
+[25.392642] (-) TimerEvent: {}
+[25.508209] (-) TimerEvent: {}
+[25.612046] (-) TimerEvent: {}
+[25.712670] (-) TimerEvent: {}
+[25.822542] (-) TimerEvent: {}
+[25.924660] (-) TimerEvent: {}
+[26.041296] (-) TimerEvent: {}
+[26.146380] (-) TimerEvent: {}
+[26.246731] (-) TimerEvent: {}
+[26.356277] (-) TimerEvent: {}
+[26.458570] (-) TimerEvent: {}
+[26.567483] (-) TimerEvent: {}
+[26.668492] (-) TimerEvent: {}
+[26.769057] (-) TimerEvent: {}
+[26.869666] (-) TimerEvent: {}
+[26.970649] (-) TimerEvent: {}
+[27.071154] (-) TimerEvent: {}
+[27.172163] (-) TimerEvent: {}
+[27.279955] (-) TimerEvent: {}
+[27.382088] (-) TimerEvent: {}
+[27.486793] (-) TimerEvent: {}
+[27.587591] (-) TimerEvent: {}
+[27.812791] (-) TimerEvent: {}
+[27.919449] (-) TimerEvent: {}
+[28.025889] (-) TimerEvent: {}
+[28.127661] (-) TimerEvent: {}
+[28.242519] (-) TimerEvent: {}
+[28.352598] (-) TimerEvent: {}
+[28.458991] (-) TimerEvent: {}
+[28.559946] (-) TimerEvent: {}
+[28.661976] (-) TimerEvent: {}
+[28.766266] (-) TimerEvent: {}
+[28.867523] (-) TimerEvent: {}
+[28.979588] (-) TimerEvent: {}
+[29.080246] (-) TimerEvent: {}
+[29.185362] (-) TimerEvent: {}
+[29.295582] (-) TimerEvent: {}
+[29.427173] (-) TimerEvent: {}
+[29.528839] (-) TimerEvent: {}
+[29.629389] (-) TimerEvent: {}
+[29.730304] (-) TimerEvent: {}
+[29.836175] (-) TimerEvent: {}
+[29.937838] (-) TimerEvent: {}
+[30.056969] (-) TimerEvent: {}
+[30.158491] (-) TimerEvent: {}
+[30.263674] (-) TimerEvent: {}
+[30.364253] (-) TimerEvent: {}
+[30.464861] (-) TimerEvent: {}
+[30.597604] (-) TimerEvent: {}
+[30.713147] (-) TimerEvent: {}
+[30.815189] (-) TimerEvent: {}
+[30.930647] (-) TimerEvent: {}
+[31.032789] (-) TimerEvent: {}
+[31.151237] (-) TimerEvent: {}
+[31.349427] (-) TimerEvent: {}
+[31.466987] (-) TimerEvent: {}
+[31.567469] (-) TimerEvent: {}
+[31.674227] (-) TimerEvent: {}
+[31.775354] (-) TimerEvent: {}
+[31.887247] (-) TimerEvent: {}
+[31.990469] (-) TimerEvent: {}
+[32.091469] (-) TimerEvent: {}
+[32.192617] (-) TimerEvent: {}
+[32.301860] (-) TimerEvent: {}
+[32.403502] (-) TimerEvent: {}
+[32.505635] (-) TimerEvent: {}
+[32.664769] (-) TimerEvent: {}
+[32.766541] (-) TimerEvent: {}
+[32.866897] (-) TimerEvent: {}
+[33.149606] (-) TimerEvent: {}
+[33.253554] (-) TimerEvent: {}
+[33.388415] (-) TimerEvent: {}
+[33.488779] (-) TimerEvent: {}
+[33.612285] (-) TimerEvent: {}
+[33.713372] (-) TimerEvent: {}
+[33.813660] (-) TimerEvent: {}
+[33.917555] (-) TimerEvent: {}
+[34.017849] (-) TimerEvent: {}
+[34.129717] (-) TimerEvent: {}
+[34.230172] (-) TimerEvent: {}
+[34.523779] (-) TimerEvent: {}
+[34.902907] (-) TimerEvent: {}
+[35.012644] (-) TimerEvent: {}
+[35.114338] (-) TimerEvent: {}
+[35.216054] (-) TimerEvent: {}
+[35.317337] (-) TimerEvent: {}
+[35.421056] (-) TimerEvent: {}
+[35.522591] (-) TimerEvent: {}
+[35.623172] (-) TimerEvent: {}
+[35.723934] (-) TimerEvent: {}
+[35.824695] (-) TimerEvent: {}
+[35.925580] (-) TimerEvent: {}
+[36.020869] (nmpcrect) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable nmpcRect\x1b[0m\n'}
+[36.021977] (nmpcrect) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/nmpcRect.dir/link.txt --verbose=1\n'}
+[36.025803] (-) TimerEvent: {}
+[36.029234] (nmpcrect) StdoutLine: {'line': b'/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/nmpcRect.dir/src/slros2_generic_param.cpp.o CMakeFiles/nmpcRect.dir/src/main.cpp.o CMakeFiles/nmpcRect.dir/src/nmpcRect.cpp.o CMakeFiles/nmpcRect.dir/src/nmpcRect_data.cpp.o CMakeFiles/nmpcRect.dir/src/ros2nodeinterface.cpp.o CMakeFiles/nmpcRect.dir/src/rtGetInf.cpp.o CMakeFiles/nmpcRect.dir/src/rtGetNaN.cpp.o CMakeFiles/nmpcRect.dir/src/rt_nonfinite.cpp.o CMakeFiles/nmpcRect.dir/src/slros2_initialize.cpp.o CMakeFiles/nmpcRect.dir/src/slros_busmsg_conversion.cpp.o -o nmpcRect  -Wl,-rpath,/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib:/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/lib /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so -ldl /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libpython3.10.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librcutils.so -ldl \n'}
+[36.065796] (nmpcsine) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable nmpcSine\x1b[0m\n'}
+[36.067004] (nmpcsine) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/nmpcSine.dir/link.txt --verbose=1\n'}
+[36.074909] (nmpcsine) StdoutLine: {'line': b'/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/nmpcSine.dir/src/slros2_generic_param.cpp.o CMakeFiles/nmpcSine.dir/src/main.cpp.o CMakeFiles/nmpcSine.dir/src/nmpcSine.cpp.o CMakeFiles/nmpcSine.dir/src/nmpcSine_data.cpp.o CMakeFiles/nmpcSine.dir/src/ros2nodeinterface.cpp.o CMakeFiles/nmpcSine.dir/src/rtGetInf.cpp.o CMakeFiles/nmpcSine.dir/src/rtGetNaN.cpp.o CMakeFiles/nmpcSine.dir/src/rt_nonfinite.cpp.o CMakeFiles/nmpcSine.dir/src/slros2_initialize.cpp.o CMakeFiles/nmpcSine.dir/src/slros_busmsg_conversion.cpp.o -o nmpcSine  -Wl,-rpath,/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib:/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/lib /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_fastrtps_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_introspection_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_cpp.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librclcpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so -ldl /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_typesupport_c.so /home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/libcatarob_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/liblibstatistics_collector.so /opt/ros/humble/lib/librcl.so /opt/ros/humble/lib/librmw_implementation.so /opt/ros/humble/lib/libament_index_cpp.so /opt/ros/humble/lib/librcl_logging_spdlog.so /opt/ros/humble/lib/librcl_logging_interface.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/humble/lib/librcl_yaml_param_parser.so /opt/ros/humble/lib/libyaml.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libtracetools.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so /opt/ros/humble/lib/libfastcdr.so.1.0.24 /opt/ros/humble/lib/librmw.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so /usr/lib/x86_64-linux-gnu/libpython3.10.so /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_cpp.so /opt/ros/humble/lib/librosidl_typesupport_c.so /opt/ros/humble/lib/librosidl_runtime_c.so /opt/ros/humble/lib/librcpputils.so /opt/ros/humble/lib/librcutils.so -ldl \n'}
+[36.132671] (-) TimerEvent: {}
+[36.237099] (-) TimerEvent: {}
+[36.303815] (nmpcrect) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[36.312980] (nmpcrect) StdoutLine: {'line': b'[100%] Built target nmpcRect\n'}
+[36.314059] (nmpcrect) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'\n"}
+[36.314282] (nmpcrect) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/nmpcrect/CMakeFiles 0\n'}
+[36.325523] (nmpcrect) CommandEnded: {'returncode': 0}
+[36.337299] (-) TimerEvent: {}
+[36.369156] (nmpcsine) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[36.370409] (nmpcrect) JobProgress: {'identifier': 'nmpcrect', 'progress': 'install'}
+[36.370803] (nmpcrect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/nmpcrect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/nmpcrect'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[36.378860] (nmpcsine) StdoutLine: {'line': b'[100%] Built target nmpcSine\n'}
+[36.379244] (nmpcrect) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[36.379429] (nmpcrect) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib/nmpcrect/nmpcRect\n'}
+[36.380101] (nmpcsine) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'\n"}
+[36.380321] (nmpcsine) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/mpilovm/ros2_ws_simulink/build/nmpcsine/CMakeFiles 0\n'}
+[36.382484] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/ament_index/resource_index/package_run_dependencies/nmpcrect\n'}
+[36.382640] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/ament_index/resource_index/parent_prefix_path/nmpcrect\n'}
+[36.382773] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/environment/ament_prefix_path.sh\n'}
+[36.382850] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/environment/ament_prefix_path.dsv\n'}
+[36.382967] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/environment/path.sh\n'}
+[36.383023] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/environment/path.dsv\n'}
+[36.383072] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/local_setup.bash\n'}
+[36.383121] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/local_setup.sh\n'}
+[36.383272] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/local_setup.zsh\n'}
+[36.383371] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/local_setup.dsv\n'}
+[36.383463] (nmpcrect) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.dsv\n'}
+[36.383668] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/ament_index/resource_index/packages/nmpcrect\n'}
+[36.383806] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.383882] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/cmake/nmpcrectConfig.cmake\n'}
+[36.383953] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/cmake/nmpcrectConfig-version.cmake\n'}
+[36.384022] (nmpcrect) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.xml\n'}
+[36.385979] (nmpcrect) CommandEnded: {'returncode': 0}
+[36.393549] (nmpcsine) CommandEnded: {'returncode': 0}
+[36.437384] (-) TimerEvent: {}
+[36.444625] (nmpcrect) JobEnded: {'identifier': 'nmpcrect', 'rc': 0}
+[36.446587] (nmpcsine) JobProgress: {'identifier': 'nmpcsine', 'progress': 'install'}
+[36.446633] (nmpcsine) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'], 'cwd': '/home/mpilovm/ros2_ws_simulink/build/nmpcsine', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_ZA:en'), ('USER', 'mpilovm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mpilovm'), ('OLDPWD', '/home/mpilovm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1053'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mpilovm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mpilovm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mpilovm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mpilovm-VirtualBox:@/tmp/.ICE-unix/1029,unix/mpilovm-VirtualBox:/tmp/.ICE-unix/1029'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e2c1435_4308_454a_8791_a3a39efff16f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6LADW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpilovm/ros2_ws_simulink/build/nmpcsine'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:/home/mpilovm/ros2_ws/build/my_robot_controller:/home/mpilovm/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[36.453803] (nmpcsine) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[36.453989] (nmpcsine) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib/nmpcsine/nmpcSine\n'}
+[36.456936] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/ament_index/resource_index/package_run_dependencies/nmpcsine\n'}
+[36.457191] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/ament_index/resource_index/parent_prefix_path/nmpcsine\n'}
+[36.457347] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/environment/ament_prefix_path.sh\n'}
+[36.457446] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/environment/ament_prefix_path.dsv\n'}
+[36.457615] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/environment/path.sh\n'}
+[36.457754] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/environment/path.dsv\n'}
+[36.457935] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/local_setup.bash\n'}
+[36.457997] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/local_setup.sh\n'}
+[36.458063] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/local_setup.zsh\n'}
+[36.458120] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/local_setup.dsv\n'}
+[36.458175] (nmpcsine) StdoutLine: {'line': b'-- Installing: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.dsv\n'}
+[36.458257] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/ament_index/resource_index/packages/nmpcsine\n'}
+[36.458319] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[36.458377] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/cmake/nmpcsineConfig.cmake\n'}
+[36.458433] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/cmake/nmpcsineConfig-version.cmake\n'}
+[36.458488] (nmpcsine) StdoutLine: {'line': b'-- Up-to-date: /home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.xml\n'}
+[36.460339] (nmpcsine) CommandEnded: {'returncode': 0}
+[36.519325] (nmpcsine) JobEnded: {'identifier': 'nmpcsine', 'rc': 0}
+[36.520147] (-) EventReactorShutdown: {}

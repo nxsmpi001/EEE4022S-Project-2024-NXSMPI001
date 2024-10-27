@@ -1,0 +1,11 @@
+setup.py
+catarob_interfaces/__init__.py
+catarob_interfaces.egg-info/PKG-INFO
+catarob_interfaces.egg-info/SOURCES.txt
+catarob_interfaces.egg-info/dependency_links.txt
+catarob_interfaces.egg-info/top_level.txt
+catarob_interfaces/msg/__init__.py
+catarob_interfaces/msg/_hull_status.py
+catarob_interfaces/msg/_state_estimate.py
+catarob_interfaces/srv/__init__.py
+catarob_interfaces/srv/_toggle_props.py

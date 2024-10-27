@@ -1,0 +1,277 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75b9985fbd00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b9985a1600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b9985a1600>>)
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.293s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mpilovm/ros2_ws_simulink'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/catarob_interfaces) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/catarob_interfaces' with type 'ros.ament_cmake' and name 'catarob_interfaces'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcrect) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nmpcrect' with type 'ros.ament_cmake' and name 'nmpcrect'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/nmpcsine) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nmpcsine' with type 'ros.ament_cmake' and name 'nmpcsine'
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mpilovm/ros2_ws/install
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'catarob_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'catarob_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces', 'merge_install': False, 'path': '/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcrect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'nmpcrect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpilovm/ros2_ws_simulink/build/nmpcrect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpilovm/ros2_ws_simulink/install/nmpcrect', 'merge_install': False, 'path': '/home/mpilovm/ros2_ws_simulink/src/nmpcrect', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'nmpcsine' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'nmpcsine' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mpilovm/ros2_ws_simulink/build/nmpcsine', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mpilovm/ros2_ws_simulink/install/nmpcsine', 'merge_install': False, 'path': '/home/mpilovm/ros2_ws_simulink/src/nmpcsine', 'symlink_install': False, 'test_result_base': None}
+[0.404s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.405s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces'
+[0.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces': CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces -- -j4 -l4
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces -- -j4 -l4
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces': CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces
+[0.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(catarob_interfaces)
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/catarob_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/catarob_interfaces
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces' for CMake module files
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('catarob_interfaces', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib'
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('catarob_interfaces', 'ld_library_path_lib')
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/bin'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/pkgconfig/catarob_interfaces.pc'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/python3.10/site-packages'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/bin'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.bash'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.zsh'
+[0.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/colcon-core/packages/catarob_interfaces)
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(catarob_interfaces)
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces' for CMake module files
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces' for CMake config files
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('catarob_interfaces', 'cmake_prefix_path')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/cmake_prefix_path.sh'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib'
+[1.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('catarob_interfaces', 'ld_library_path_lib')
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/hook/ld_library_path_lib.sh'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/pkgconfig/catarob_interfaces.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib/python3.10/site-packages'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/bin'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.bash'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/catarob_interfaces/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/share/colcon-core/packages/catarob_interfaces)
+[1.085s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpilovm/ros2_ws_simulink/src/nmpcrect' with build type 'ament_cmake'
+[1.085s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpilovm/ros2_ws_simulink/src/nmpcrect'
+[1.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.089s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mpilovm/ros2_ws_simulink/src/nmpcsine' with build type 'ament_cmake'
+[1.089s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mpilovm/ros2_ws_simulink/src/nmpcsine'
+[1.089s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/nmpcrect': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/nmpcrect -- -j4 -l4
+[1.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/nmpcsine': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/nmpcsine -- -j4 -l4
+[36.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/nmpcrect' returned '0': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/nmpcrect -- -j4 -l4
+[36.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/nmpcrect': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/nmpcrect
+[36.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpcrect)
+[36.790s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect' for CMake module files
+[36.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/nmpcrect' returned '0': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/nmpcrect
+[36.791s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect' for CMake config files
+[36.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpcrect', 'cmake_prefix_path')
+[36.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.ps1'
+[36.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.dsv'
+[36.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.sh'
+[36.793s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib'
+[36.793s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/bin'
+[36.793s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib/pkgconfig/nmpcrect.pc'
+[36.793s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib/python3.10/site-packages'
+[36.794s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/bin'
+[36.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.ps1'
+[36.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.dsv'
+[36.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.sh'
+[36.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.bash'
+[36.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.zsh'
+[36.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/colcon-core/packages/nmpcrect)
+[36.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/nmpcsine' returned '0': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mpilovm/ros2_ws_simulink/build/nmpcsine -- -j4 -l4
+[36.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpcrect)
+[36.843s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect' for CMake module files
+[36.844s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect' for CMake config files
+[36.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpcrect', 'cmake_prefix_path')
+[36.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.ps1'
+[36.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.dsv'
+[36.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/hook/cmake_prefix_path.sh'
+[36.846s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib'
+[36.846s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/bin'
+[36.846s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib/pkgconfig/nmpcrect.pc'
+[36.846s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/lib/python3.10/site-packages'
+[36.846s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/bin'
+[36.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.ps1'
+[36.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.dsv'
+[36.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.sh'
+[36.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.bash'
+[36.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/nmpcrect/package.zsh'
+[36.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/nmpcrect/share/colcon-core/packages/nmpcrect)
+[36.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mpilovm/ros2_ws_simulink/build/nmpcsine': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/nmpcsine
+[36.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpcsine)
+[36.865s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine' for CMake module files
+[36.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mpilovm/ros2_ws_simulink/build/nmpcsine' returned '0': AMENT_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces:/home/mpilovm/ros2_ws/install/my_robot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpilovm/ros2_ws_simulink/install/catarob_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mpilovm/ros2_ws_simulink/build/nmpcsine
+[36.866s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine' for CMake config files
+[36.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpcsine', 'cmake_prefix_path')
+[36.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.ps1'
+[36.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.dsv'
+[36.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.sh'
+[36.868s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib'
+[36.868s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/bin'
+[36.868s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib/pkgconfig/nmpcsine.pc'
+[36.868s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib/python3.10/site-packages'
+[36.868s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/bin'
+[36.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.ps1'
+[36.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.dsv'
+[36.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.sh'
+[36.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.bash'
+[36.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.zsh'
+[36.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/colcon-core/packages/nmpcsine)
+[36.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nmpcsine)
+[36.917s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine' for CMake module files
+[36.918s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine' for CMake config files
+[36.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('nmpcsine', 'cmake_prefix_path')
+[36.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.ps1'
+[36.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.dsv'
+[36.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/hook/cmake_prefix_path.sh'
+[36.920s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib'
+[36.920s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/bin'
+[36.920s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib/pkgconfig/nmpcsine.pc'
+[36.921s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/lib/python3.10/site-packages'
+[36.921s] Level 1:colcon.colcon_core.environment:checking '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/bin'
+[36.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.ps1'
+[36.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.dsv'
+[36.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.sh'
+[36.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.bash'
+[36.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/nmpcsine/package.zsh'
+[36.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mpilovm/ros2_ws_simulink/install/nmpcsine/share/colcon-core/packages/nmpcsine)
+[36.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.924s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.930s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.930s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.943s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpilovm/ros2_ws_simulink/install/local_setup.ps1'
+[36.944s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mpilovm/ros2_ws_simulink/install/_local_setup_util_ps1.py'
+[36.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpilovm/ros2_ws_simulink/install/setup.ps1'
+[36.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpilovm/ros2_ws_simulink/install/local_setup.sh'
+[36.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mpilovm/ros2_ws_simulink/install/_local_setup_util_sh.py'
+[36.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpilovm/ros2_ws_simulink/install/setup.sh'
+[36.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpilovm/ros2_ws_simulink/install/local_setup.bash'
+[36.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpilovm/ros2_ws_simulink/install/setup.bash'
+[36.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mpilovm/ros2_ws_simulink/install/local_setup.zsh'
+[36.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mpilovm/ros2_ws_simulink/install/setup.zsh'

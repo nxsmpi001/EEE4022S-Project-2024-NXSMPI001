@@ -1,0 +1,4 @@
+source;share/nmpcrect/local_setup.bash
+source;share/nmpcrect/local_setup.dsv
+source;share/nmpcrect/local_setup.sh
+source;share/nmpcrect/local_setup.zsh

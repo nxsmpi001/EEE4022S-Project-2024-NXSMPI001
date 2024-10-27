@@ -1,0 +1,8 @@
+source;share/nmpcrect/hook/cmake_prefix_path.ps1
+source;share/nmpcrect/hook/cmake_prefix_path.dsv
+source;share/nmpcrect/hook/cmake_prefix_path.sh
+source;share/nmpcrect/local_setup.bash
+source;share/nmpcrect/local_setup.dsv
+source;share/nmpcrect/local_setup.ps1
+source;share/nmpcrect/local_setup.sh
+source;share/nmpcrect/local_setup.zsh

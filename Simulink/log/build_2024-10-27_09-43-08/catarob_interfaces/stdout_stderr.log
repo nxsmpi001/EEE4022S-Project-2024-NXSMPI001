@@ -1,0 +1,266 @@
+-- The C compiler identification is MSVC 19.39.33523.0
+-- The CXX compiler identification is MSVC 19.39.33523.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/ament_cmake/cmake)
+-- Found Python3: C:/Users/mpilo/AppData/Local/Programs/Python/Python311/python.exe (found version "3.11.4") found components: Interpreter 
+-- Found ament_cmake_ros: 0.10.0 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/ament_cmake_ros/cmake)
+-- Found rosidl_typesupport_c: 2.0.0 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_typesupport_c/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.4 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_adapter/cmake)
+-- Found rosidl_typesupport_cpp: 2.0.0 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_typesupport_cpp/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/rosidl_default_generators/cmake)
+-- Found builtin_interfaces: 1.2.1 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/builtin_interfaces/cmake)
+-- Found std_msgs: 4.2.3 (C:/Program Files/MATLAB/R2024b/sys/ros2/win64/ros2/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_c.dir/./
+
+  has 185 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    c25fd783e08772d88516afdee11c3137/hull_status__type_support_c.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_c.dir/./
+
+  has 190 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    91c2d3480673558ab7bbb375cdd105e8/hull_status__type_support.c.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir/./
+
+  has 187 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    633a0ecbb8dcad98a3b8ff2f0c2987ab/hull_status__type_support.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces/CMakeFiles/catarob_interfaces__rosidl_typesupport_introspection_cpp.dir/./
+
+  has 192 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    587312f704ac1ad216a5a5a7c6f8ffce/hull_status__type_support.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Generating done
+-- Build files have been written to: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/build/catarob_interfaces
+[1/36] Generating C++ code for ROS interfaces
+[2/36] Generating C code for ROS interfaces
+[3/36] Building C object CMakeFiles\catarob_interfaces__rosidl_generator_c.dir\7ba8f9282504d480b271c36b6e72c31d\srv\detail\toggle_props__functions.c.obj
+[4/36] Building C object CMakeFiles\catarob_interfaces__rosidl_generator_c.dir\7ba8f9282504d480b271c36b6e72c31d\msg\detail\state_estimate__functions.c.obj
+[5/36] Building C object CMakeFiles\catarob_interfaces__rosidl_generator_c.dir\7ba8f9282504d480b271c36b6e72c31d\msg\detail\hull_status__functions.c.obj
+[6/36] Linking C shared library catarob_interfaces__rosidl_generator_c.dll
+[7/36] Generating C++ type support dispatch for ROS interfaces
+[8/36] Generating C++ introspection for ROS interfaces
+[9/36] Generating C++ type support for eProsima Fast-RTPS
+[10/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_cpp.dir\92b7f17a262132eab2c90fed1da44e48\state_estimate__type_support.cpp.obj
+[11/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_cpp.dir\233329ddf1c65b9194f7f81b1175cb8b\srv\toggle_props__type_support.cpp.obj
+[12/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_cpp.dir\233329ddf1c65b9194f7f81b1175cb8b\msg\hull_status__type_support.cpp.obj
+[13/36] Generating C type support dispatch for ROS interfaces
+[14/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_cpp.dir\a8faa1a5804d2d2b1cb126bafe49647b\toggle_props__type_support.cpp.obj
+[15/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_cpp.dir\587312f704ac1ad216a5a5a7c6f8ffce\state_estimate__type_support.cpp.obj
+[16/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_c.dir\ad7956a1f31933c77dec7b5783fc6180\msg\state_estimate__type_support.cpp.obj
+[17/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_c.dir\ad7956a1f31933c77dec7b5783fc6180\msg\hull_status__type_support.cpp.obj
+[18/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_cpp.dir\587312f704ac1ad216a5a5a7c6f8ffce\hull_status__type_support.cpp.obj
+[19/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_c.dir\ad7956a1f31933c77dec7b5783fc6180\srv\toggle_props__type_support.cpp.obj
+[20/36] Generating C type support for eProsima Fast-RTPS
+[21/36] Generating C introspection for ROS interfaces
+[22/36] Linking CXX shared library catarob_interfaces__rosidl_typesupport_cpp.dll
+[23/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir\633a0ecbb8dcad98a3b8ff2f0c2987ab\state_estimate__type_support.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[24/36] Building C object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_c.dir\6b42da30fa400cec43a9f15f4cca016b\toggle_props__type_support.c.obj
+[25/36] Building C object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_c.dir\91c2d3480673558ab7bbb375cdd105e8\state_estimate__type_support.c.obj
+[26/36] Building C object CMakeFiles\catarob_interfaces__rosidl_typesupport_introspection_c.dir\91c2d3480673558ab7bbb375cdd105e8\hull_status__type_support.c.obj
+[27/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir\633a0ecbb8dcad98a3b8ff2f0c2987ab\hull_status__type_support.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[28/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dir\0e89687a06cea4ea70543a78c4f38ea5\toggle_props__type_support.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[29/36] Linking CXX shared library catarob_interfaces__rosidl_typesupport_c.dll
+[30/36] Linking CXX shared library catarob_interfaces__rosidl_typesupport_introspection_cpp.dll
+[31/36] Linking C shared library catarob_interfaces__rosidl_typesupport_introspection_c.dll
+[32/36] Linking CXX shared library catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dll
+[33/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_c.dir\c25fd783e08772d88516afdee11c3137\state_estimate__type_support_c.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[34/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_c.dir\c25fd783e08772d88516afdee11c3137\hull_status__type_support_c.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[35/36] Building CXX object CMakeFiles\catarob_interfaces__rosidl_typesupport_fastrtps_c.dir\5fe698d5e729c1a5f9785b32b12ea290\toggle_props__type_support_c.cpp.obj
+cl : Command line warning D9025 : overriding '/W3' with '/W4'
+[36/36] Linking CXX shared library catarob_interfaces__rosidl_typesupport_fastrtps_c.dll
+-- Install configuration: "Release"
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/rosidl_interfaces/catarob_interfaces
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__functions.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__functions.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__struct.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__functions.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__functions.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__struct.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/hull_status.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/state_estimate.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__functions.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__functions.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__struct.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/toggle_props.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_generator_c.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_generator_c.dll
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_fastrtps_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_fastrtps_c.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_fastrtps_c.dll
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_introspection_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_introspection_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_introspection_c.h
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.c
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_introspection_c.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_introspection_c.dll
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_c.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_c.dll
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__builder.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__struct.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__traits.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__builder.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__struct.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__traits.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/hull_status.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/state_estimate.hpp
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__builder.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__struct.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__traits.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/toggle_props.hpp
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/dds_fastrtps
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/dds_fastrtps
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_fastrtps_cpp.dll
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/hull_status__type_support.cpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/msg/detail/state_estimate__type_support.cpp
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv
+-- Up-to-date: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/include/catarob_interfaces/catarob_interfaces/srv/detail/toggle_props__type_support.cpp
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_introspection_cpp.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_introspection_cpp.dll
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/lib/catarob_interfaces__rosidl_typesupport_cpp.lib
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/bin/catarob_interfaces__rosidl_typesupport_cpp.dll
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/msg/HullStatus.idl
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/msg/StateEstimate.idl
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/srv/ToggleProps.idl
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/msg/HullStatus.msg
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/msg/StateEstimate.msg
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/srv/ToggleProps.srv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/srv/ToggleProps_Request.msg
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/srv/ToggleProps_Response.msg
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/package_run_dependencies/catarob_interfaces
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/parent_prefix_path/catarob_interfaces
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/environment/ament_prefix_path.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/environment/ament_prefix_path.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/environment/path.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/environment/path.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/local_setup.bat
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/local_setup.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/package.dsv
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/ament_index/resource_index/packages/catarob_interfaces
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/export_catarob_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfaces__rosidl_typesupport_cppExport-release.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfacesConfig.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/cmake/catarob_interfacesConfig-version.cmake
+-- Installing: C:/Users/mpilo/Documents/Work/Research Project/Repo/EEE4022S-Project-2024-NXSMPI001/Simulink/install/share/catarob_interfaces/package.xml

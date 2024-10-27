@@ -1,0 +1,12 @@
+source;share\nmpcrect\hook\cmake_prefix_path.ps1
+source;share\nmpcrect\hook\cmake_prefix_path.bat
+source;share\nmpcrect\hook\cmake_prefix_path.dsv
+source;share\nmpcrect\hook\path_dll.ps1
+source;share\nmpcrect\hook\path_dll.bat
+source;share\nmpcrect\hook\path_dll.dsv
+source;share\nmpcrect\hook\path.ps1
+source;share\nmpcrect\hook\path.bat
+source;share\nmpcrect\hook\path.dsv
+source;share/nmpcrect/local_setup.bat
+source;share/nmpcrect/local_setup.dsv
+source;share/nmpcrect/local_setup.ps1

@@ -1,0 +1,8 @@
+msg/HullStatus.idl
+msg/HullStatus.msg
+msg/StateEstimate.idl
+msg/StateEstimate.msg
+srv/ToggleProps.idl
+srv/ToggleProps.srv
+srv/ToggleProps_Request.msg
+srv/ToggleProps_Response.msg

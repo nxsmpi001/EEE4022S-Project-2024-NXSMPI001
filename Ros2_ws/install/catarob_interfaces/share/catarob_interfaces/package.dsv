@@ -1,0 +1,11 @@
+source;share/catarob_interfaces/hook/cmake_prefix_path.ps1
+source;share/catarob_interfaces/hook/cmake_prefix_path.dsv
+source;share/catarob_interfaces/hook/cmake_prefix_path.sh
+source;share/catarob_interfaces/hook/ld_library_path_lib.ps1
+source;share/catarob_interfaces/hook/ld_library_path_lib.dsv
+source;share/catarob_interfaces/hook/ld_library_path_lib.sh
+source;share/catarob_interfaces/local_setup.bash
+source;share/catarob_interfaces/local_setup.dsv
+source;share/catarob_interfaces/local_setup.ps1
+source;share/catarob_interfaces/local_setup.sh
+source;share/catarob_interfaces/local_setup.zsh

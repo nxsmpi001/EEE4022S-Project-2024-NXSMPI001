@@ -1,0 +1,33 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_generic_pubsub.h:6[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_initialize.h:7[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/nmpcSine.h:24[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/nmpcSine.cpp:19[m[K:
+/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_generic_param.h: In instantiation of ‘[01m[Kvoid SimulinkParameterArrayGetter<CppParamType, ROSCppParamType>::getParameter(uint32_t, CppParamType*, uint32_t*) [with CppParamType = double; ROSCppParamType = std::vector<double, std::allocator<double> >; uint32_t = unsigned int][m[K’:
+[01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/nmpcSine.cpp:14569:37:[m[K   required from here
+[01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_generic_param.h:168:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  168 |                 RCLCPP_WARN(nodePtr->get_logger(),[01;35m[K"Value of ROS 2 parameter, '%s', can have a maximum of %d items, but value received from parameter server has %d items.\nThe output value will be truncated to first %d items."[m[K,
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  169 |                            paramName.c_str(), maxLength, [32m[KretrievedValue.size()[m[K,maxLength);
+      |                                                          [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                             [32m[K|[m[K
+      |                                                                             [32m[Kstd::vector<double, std::allocator<double> >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_initialize.h:8[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/nmpcSine.h:24[m[K,
+                 from [01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/src/nmpcSine.cpp:19[m[K:
+[01m[K/home/mpilovm/ros2_ws_simulink/src/nmpcsine/include/nmpcsine/slros2_generic_param.h:168:162:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  168 |                 RCLCPP_WARN(nodePtr->get_logger(),"Value of ROS 2 parameter, '%s', can have a maximum of %d items, but value received from parameter server has [01;36m[K%d[m[K items.\nThe output value will be truncated to first %d items.",
+      |                                                                                                                                                                 [01;36m[K~^[m[K
+      |                                                                                                                                                                  [01;36m[K|[m[K
+      |                                                                                                                                                                  [01;36m[Kint[m[K
+      |                                                                                                                                                                 [32m[K%ld[m[K

@@ -1,0 +1,8 @@
+{
+  "package_name": "catarob_interfaces",
+  "non_idl_tuples": [
+    "/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces:msg/HullStatus.msg",
+    "/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces:msg/StateEstimate.msg",
+    "/home/mpilovm/ros2_ws_simulink/src/catarob_interfaces:srv/ToggleProps.srv"
+  ]
+}
